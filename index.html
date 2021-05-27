@@ -10,16 +10,49 @@
   <body>
     <!-- Main Start -->
     <div class="main">
+      <!-- Header Start -->
+      <header class="header">
+        <div class="container">
+          <div class="row flex-end">
+            <button class="nav-toggler" type="button">
+              <span></span>
+            </button>
+            <nav class="nav">
+              <div class="nav-inner">
+                <ul>
+                  <li><a href="#home" class="nav-item link-item">Home</a></li>
+                  <li><a href="#about" class="nav-item link-item">About</a></li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Portfolio</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#portfolio" class="nav-item link-item"
+                      >Design Apps</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#contact" class="nav-item link-item">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <!-- Header End -->
+
       <!-- Home Section Start -->
-      <section class="home-section align-items-center hidden">
+      <section class="home-section align-items-center active" id="home">
         <div class="container">
           <div class="row align-items-center">
             <div class="home-text">
               <p>Hello I'm</p>
               <h1>Aldi Tegar Prakoso</h1>
               <h2>Web Developer</h2>
-              <a href="" class="btn">More About Me</a>
-              <a href="" class="btn">Portfolio</a>
+              <a href="#about" class="btn link-item">More About Me</a>
+              <a href="#portfolio" class="btn link-item">Portfolio</a>
             </div>
             <div class="home-img">
               <div class="img-box">
@@ -32,7 +65,7 @@
       <!-- Home Section End -->
 
       <!-- About Section Start -->
-      <section class="about-section sec-padding hidden">
+      <section class="about-section sec-padding" id="about">
         <div class="container">
           <div class="row">
             <div class="section-title">
@@ -128,8 +161,10 @@
               </div>
               <!-- Experience End -->
 
-              <a href="" class="btn">Download CV</a>
-              <a href="" class="btn">Contact Me</a>
+              <a href="CV - Aldi Tegar Prakoso.pdf" target="_blank" class="btn"
+                >Download CV</a
+              >
+              <a href="#contact" class="btn link-item">Contact Me</a>
             </div>
           </div>
         </div>
@@ -137,7 +172,7 @@
       <!-- About Section End -->
 
       <!-- Portfolio Section Start -->
-      <section class="portfolio-section sec-padding hidden">
+      <section class="portfolio-section sec-padding" id="portfolio">
         <div class="container">
           <div class="row">
             <div class="section-title">
@@ -396,7 +431,7 @@
       <!-- Portfolio Section End -->
 
       <!-- Contact Section Start -->
-      <section class="contact-section sec-padding">
+      <section class="contact-section sec-padding" id="contact">
         <div class="conatiner">
           <div class="row">
             <div class="section-title">
